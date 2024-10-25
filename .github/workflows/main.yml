@@ -27,4 +27,4 @@ jobs:
       env:
         KOY_EB: ${{ secrets.KOY_EB }}
         TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}  ## 填写对应的平台通知变量名[此处使用企业微信应用消息推送]，若需要多平台同时推送，请按此格式填写多个平台对应的变量名即可
-
+        TG_USER_ID: ${{ secrets.TG_USER_ID }}
